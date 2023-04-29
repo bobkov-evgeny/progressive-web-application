@@ -5,10 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // add recipe form
   const forms = document.querySelectorAll('.side-form');
   M.Sidenav.init(forms, {edge: 'left'});
-});
 
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('DOM is ready');
   getPosts();
 });
 
